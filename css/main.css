@@ -439,6 +439,7 @@ font-weight: 400;
 @media (max-width:768px){
   .h1-home{
 margin-left: 0rem !important;
+    font-size: 1.5rem;
   }
   }
 
