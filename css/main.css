@@ -304,6 +304,11 @@ color: hsla(0, 0%, 100%, 0.48);
 line-height: 24px;
 color: #000000;
 }
+@media (max-width:768px){
+  .footer-name-title.second-black {
+      margin-left: 0px;
+    margin-top: 1rem; }
+  }
 
     .footer-contact {
         display: -webkit-box;
