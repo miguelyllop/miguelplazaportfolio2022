@@ -240,6 +240,18 @@ em {
     font-family: 'Inconsolata', monospace;
       border-top: 0.05rem solid #C1C1C0;
 }
+
+@media (max-width:768px){
+  .footer {
+    display: flex;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+    padding-top: 1rem; }
+  }
+
     .footer-name {
     display: -webkit-box;
     display: -webkit-flex;
@@ -247,6 +259,14 @@ em {
     display: flex;
       margin-top: 2rem;
     }
+
+    @media (max-width:768px){
+      .footer-name {
+        display: inline-block;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-top: 1rem; }
+      }
 
     .footer-name-title {
         font-family: 'Inconsolata', monospace;
@@ -271,6 +291,12 @@ em {
     color: hsla(0, 0%, 100%, 0.48);
     line-height: 24px;
 }
+
+@media (max-width:768px){
+  .footer-name-title.second {
+      margin-left: 0px;
+    margin-top: 1rem; }
+  }
 
 .footer-name-title.second-black {
 margin-left: 40px;
