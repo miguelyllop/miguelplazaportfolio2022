@@ -26,7 +26,6 @@ section {
   margin:2rem;
 }
 
-
 h1 {
   font-family: 'Inconsolata', monospace;
   letter-spacing: .15rem;
@@ -257,13 +256,13 @@ em {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-      margin-top: 2rem;
+      margin-top: 1rem;
     }
 
     @media (max-width:768px){
       .footer-name {
         display: inline-block;
-        margin-top: 1rem;
+        margin-top: 0rem;
         margin-bottom: 1rem;
         padding-top: 1rem; }
       }
@@ -275,6 +274,7 @@ em {
         line-height: 24px;
         font-weight: 300;
         letter-spacing: -0.3px;
+
     }
 
     .footer-name-title-black {
@@ -284,6 +284,7 @@ em {
         line-height: 24px;
         font-weight: 300;
         letter-spacing: -0.3px;
+          padding-bottom: 0rem !important;
     }
 
     .footer-name-title.second {
@@ -325,8 +326,26 @@ color: #000000;
         -webkit-align-items: flex-end;
         -ms-flex-align: end;
         align-items: flex-end;
-          padding-top: 2rem;
+          padding-top: 0rem;
           }
+
+          .footer-contact2 {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+              -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+              flex-direction: column;
+              -webkit-box-align: end;
+              -webkit-align-items: flex-end;
+              -ms-flex-align: end;
+              align-items: flex-end;
+                padding-top: 1rem;
+
+                }
 
 .about-link {
   font-family: 'Inconsolata', monospace;
@@ -439,7 +458,7 @@ font-weight: 400;
 @media (max-width:768px){
   .h1-home{
 margin-left: 0rem !important;
-    font-size: 1.5rem;
+font-size: 1.5rem;
   }
   }
 
